@@ -1,0 +1,153 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Same header as in the homepage*/
+.header {
+    box-shadow: 0 5px 5px -3px rgb(0 0 0 / 0.1);
+}
+
+.header .header-l {
+    float: left;
+}
+
+.header .header-l .title {
+    font-family: Georgia, serif;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.header-r {
+    float: right;
+    font-family: Georgia, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    position: relative;
+    top: 28%;
+    right: 28%;
+}
+
+/*Set the background color, height, width, position on the page*/
+.questionnaire {
+    background-image: linear-gradient(to right top, #e6cedd, #eadbe8, #efe7f1, #f6f3f9, #ffffff);
+    height: 1200px;
+    width: 1600px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px -3px rgb(0 0 0 / 0.1);
+}
+
+/*The format of title of test*/
+.questionnaire .quizTitle {
+    padding-top: 25px;
+    font-family: Garamond, serif;
+    font-size: 32pt;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px #b478b1;
+    letter-spacing: 1px;
+}
+
+/*Set the basic font-family and font-size for brief description of questionnaire*/
+.questionnaire .titleQuestion {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 12pt;
+}
+
+/*Format of the table to contain the questions*/
+.questionnaire .table {
+    height: 800px;
+    width: 1500px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*Customized format of the table header*/
+.questionnaire .table .titleRow {
+    height: 60px;
+    color: white;
+    background-color: #3B1364;
+    font-weight:bolder;
+    font-size: 19px;
+    border-bottom: 1px solid black;
+}
+
+/*Set the width of each column based on the characters of each column header*/
+.questionnaire .table .firstCol {
+    width: 660px;
+}
+
+.questionnaire .table .otherCol {
+    width: 150px;
+}
+
+.questionnaire .table .moreCol {
+    width: 200px;
+}
+
+/*To make the contents in each row easy to identify, set the color of each pair adjacent rows different*/
+.questionnaire .table .row_type1 {
+    height: 50px;
+    border: solid;
+    background-color: #CEBDE1;
+}
+
+.questionnaire .table .row_type2 {
+    height: 50px;
+    border: solid;
+    background-color: #ECDFF9;
+}
+
+/*Functional Health Assessment Part*/
+.questionnaire .funcPart {
+    width: 1600px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.questionnaire .funcPart .funcQuestion {
+    font-family: Garamond, serif;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.questionnaire .funcPart .funcOption {
+    margin-top: 50px;
+    margin-right: 70px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*After choosing all PHQ-9 questions and functional health assessment options, user can click submit button to submit*/
+.questionnaire .submitButton {
+    margin-left: 650px;
+    margin-top: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 19px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-shadow: 2px 2px grey;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    border-color: #451972;
+    color: white;
+    background-color: #451972;
+    box-shadow: 0 8px 8px -3px rgb(0 0 0 / 0.1);
+}
+
+.questionnaire .submitButton:hover {
+    background-color: #9128FB;
+    
+}

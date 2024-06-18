@@ -1,0 +1,163 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/*The box for header*/
+.header {
+    box-shadow: 0 5px 5px -3px rgb(0 0 0 / 0.1);
+}
+
+/*The box for the website name in Header part*/
+.header .header-l {
+    float: left;
+}
+
+/*The font format for website name in header part*/
+.header .header-l .title {
+    font-family: Georgia, serif;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+/*The format of slogan of website*/
+.header-r {
+    float: right;
+    font-family: Georgia, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    position: relative;
+    top: 28%;
+    right: 28%;
+}
+
+/* The background color of open session of homepage is set to pink purple gradient*/
+.opening {
+    background-image: linear-gradient(to right top, #654ea3, #9161aa, #b478b1, #d292bb, #eaafc8);
+}
+
+/*The format of the sentence related to Depression*/
+.opening .openWord{
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 90px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 45px;
+}
+
+/*The image float attribute is set to "right" in order to let the words can be put at the left side.*/ 
+.opening .openImage {
+    float: right;
+    margin-right: 100px;
+}
+
+/*The session title of medium session about current situation of depression*/
+.mlTitle {
+    font-family: Garamond, serif;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/*The layout of the volunteer poster*/
+.middleLeft {
+    float: left;
+    margin-right: 0px;
+}
+
+.middleLeft .ml_imageFrame{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+/*The layout of right side frame to contain words*/
+.middleRight {
+    float: right;
+    margin-left: 70px;
+}
+
+.middleRight .ml_wordFrame {
+    margin-top: 100px;
+    background-color: #E4DBE6;
+    border-radius: 20px;
+    border: solid;
+    border-color: #E4DBE6;
+    opacity: 90%;
+}
+
+.middleRight .ml_wordFrame .ml_word {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 26px;
+    border: solid;
+    border-color: #E4DBE6;
+}
+
+/*To make the link stand out when following a lot of words*/
+.middleRight .ml_wordFrame .ml_link {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+/*Create the box to include test introduction and link*/
+.quiz_container {
+    border-radius: 15px 20px;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+.quiz_container .dps_src {
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius: 15px 20px;
+}
+
+/*The format for PHQ-9 test introduction*/
+.quiz_container .quiz_invi {
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 15px 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+/*The format for PHQ-9 test entry button*/
+.quiz_container .quizButton {
+    margin-left: 360px;
+    margin-top: 20px;
+    border: solid;
+    border-color: white;
+    border-radius: 25px 25px;
+    width: 300px;
+    height: 80px;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18pt;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+}

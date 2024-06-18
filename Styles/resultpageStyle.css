@@ -1,0 +1,143 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+/* "--mid" is the value of the score percentage, set to dynamic since need to wait Javascript function to send it the actual score percentage of each user */
+:root {
+    --mid: 70%;
+}
+
+/* Same header part as the previous 2 pages*/
+.header {
+    box-shadow: 0 5px 5px -3px rgb(0 0 0 / 0.1);
+}
+
+.header .header-l {
+    float: left;
+}
+
+.header .header-l .title {
+    font-family: Georgia, serif;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.header-r {
+    float: right;
+    font-family: Georgia, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    position: relative;
+    top: 28%;
+    right: 28%;
+}
+
+/* Set the format for the container to put test results */
+.resultBody {
+    margin-left: 250px;
+    margin-top: 50px;
+    background-color: #E0C6E6;
+    opacity: 85%;
+    border-radius: 20px;
+    box-shadow: 0 12px 12px -3px rgb(0 0 0 / 0.1);
+}
+
+.resultBody .pie_container{
+    margin-left: 70px;
+    position: relative;
+    top: 10%;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    float: left;
+}
+
+/* Format of the bottom basic pie chart*/
+.resultBody .pie_container .pie {
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background: conic-gradient(#8D658B 0% var(--mid), #28762A var(--mid));
+    border: 5px solid silver;
+    box-shadow: 0 0 3px silver;
+}
+
+.resultBody .pie_container .pie.hollow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The circle overlapping above the pie chart to make the chart seems like a circular ring*/
+/* After cover, the whole chart is a circular ring with green and purple two colors on the ring.*/
+.resultBody .pie_container .pie.hollow::after {
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #E6CDE4;
+    border: 5px solid silver;
+    box-shadow: 0 0 3px silver;
+}
+
+.resultBody .pie_container .pie.hollow .span1 {
+    font-size: 40pt;
+    z-index: 2;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    left: 3%;
+}
+
+.resultBody .pie_container .pie.hollow .span2 {
+    font-size: 20pt;
+    z-index: 2;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top:7%;
+    left:3%
+}
+
+/* Set the basic format of the words of result*/
+.resultBody .result_container{
+    float: right;
+    position: relative;
+    right: 6%;
+    top: 8%;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: justify;
+}
+
+/* Make the terms name bolder, more obvious to identify */
+.resultBody .result_container .keyword{
+    font-weight: bolder;
+    text-shadow: 1px 1px grey;
+}
+
+/* Set the basic format of the words in wishes*/
+.ending {
+    margin-top: 100px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 16pt;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    line-height: 40px;
+}
+
+.ending .endTitle {
+    font-weight: bolder;
+    font-size: 20pt;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
