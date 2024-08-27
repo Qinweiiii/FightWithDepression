@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patients>
+  <Patient FirstName="Beebee" LastName="Teo" Gender="Male" PhoneNo="60-1234567" BirthDay="2001-12-2" Age="23" MartialState="Single" Address="XMUM, Sepang, Selangor, 43900, Tunisia" Insurance="Peace" />
+</Patients>

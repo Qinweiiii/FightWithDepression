@@ -11,7 +11,7 @@
 <body onload="myFunction()">
     <form id="form1" runat="server">
         <div>
-            <asp:Panel runat="server" BackColor="WhiteSmoke" Height="1450px">
+            <asp:Panel runat="server" BackColor="WhiteSmoke" Height="1500px">
                 <%--Header Part: to show website name, same as the previous 2 pages--%>
                 <asp:Panel runat="server" class="header" Height="85px">
                     <asp:Panel runat="server" Width="200px" CssClass="header-l">
@@ -71,6 +71,7 @@
                     <asp:Panel runat="server" Height="30px"></asp:Panel>
                     <asp:Image runat="server" ImageUrl="~/Images/ending_image.jpg" Height="300px" Width="300px"/>
                 </asp:Panel>
+
             </asp:Panel>
         </div>
     </form>

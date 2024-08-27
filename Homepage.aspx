@@ -21,6 +21,9 @@
                 <asp:Panel runat="server" Width="700px" CssClass="header-r" Height="45px">
                     <h2>∞  Depression is Never One's Own Business  ∞</h2>
                 </asp:Panel>
+                <asp:Panel runat="server" Width="700px" Height="45px">
+                    <asp:Button runat="server" ID="Button2" CssClass="patientPage" Text="Join Us" OnClick="JoinButton_Click"/>
+                </asp:Panel>
             </asp:Panel>
 
             <%--Opening Part: to show related slogan--%>
@@ -82,7 +85,6 @@
             </asp:Panel>
         </asp:Panel>
         
-
         <asp:Panel runat="server" BackColor="WhiteSmoke" Height="30px"></asp:Panel>
     </div>  
     </form>    

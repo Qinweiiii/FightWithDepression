@@ -14,10 +14,16 @@ namespace SWE2109537_ES
         {
             
         }
+
         protected void StartButton_Click(object sender, EventArgs e)
         {
             // The click function enables the homepage to redirect to testpage
             Response.Redirect("TestPage.aspx");
+        }
+
+        protected void JoinButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PatientPage.aspx");
         }
     }
 }

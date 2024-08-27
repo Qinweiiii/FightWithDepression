@@ -70,17 +70,27 @@
     <Content Include="Homepage.aspx" />
     <Content Include="Images\depression_source.jpg" />
     <Content Include="Images\ending_image.jpg" />
+    <Content Include="Images\loading.gif" />
     <Content Include="Images\openImage.png" />
     <Content Include="Images\ml-image.png" />
     <Content Include="Images\ml-wordframe.png" />
+    <Content Include="Images\rsp_img.jpg" />
+    <Content Include="Images\stardelo.png" />
+    <Content Include="PatientDB.aspx" />
+    <Content Include="PatientPage.aspx" />
+    <Content Include="ResponsePage.aspx" />
+    <Content Include="Styles\patientpageStyle.css" />
     <Content Include="ResultPage.aspx" />
     <Content Include="Styles\homepageStyle.css" />
+    <Content Include="Styles\responsepageStyle.css" />
     <Content Include="Styles\resultpageStyle.css" />
     <Content Include="Styles\testpageStyle.css" />
     <Content Include="TestPage.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Patients.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Homepage.aspx.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,7 +98,28 @@
     <Compile Include="Homepage.aspx.designer.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PatientDB.aspx.cs">
+      <DependentUpon>PatientDB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientDB.aspx.designer.cs">
+      <DependentUpon>PatientDB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPage.aspx.cs">
+      <DependentUpon>PatientPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientPage.aspx.designer.cs">
+      <DependentUpon>PatientPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponsePage.aspx.cs">
+      <DependentUpon>ResponsePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResponsePage.aspx.designer.cs">
+      <DependentUpon>ResponsePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ResultPage.aspx.cs">
       <DependentUpon>ResultPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

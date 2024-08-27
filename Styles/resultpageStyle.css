@@ -141,3 +141,11 @@
     letter-spacing: 1px;
     line-height: 50px;
 }
+
+.ending .formButton {
+    padding: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 18pt;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+}

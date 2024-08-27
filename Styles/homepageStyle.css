@@ -24,14 +24,48 @@
 }
 
 /*The format of slogan of website*/
-.header-r {
+.header .header-r {
     float: right;
     font-family: Georgia, serif;
     text-align: center;
     text-shadow: 1px 1px 2px grey;
     position: relative;
     top: 28%;
-    right: 28%;
+    right: 30%;
+}
+
+.header-join {
+    font-family: Georgia, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+    position: relative;
+    top: 28%;
+    left: 70%;
+}
+
+.header .patientPage {
+    position: absolute;
+    left: 90%;
+    top: 1.5%;
+    background-color: rgba(67, 58, 70, 0.8);
+    border-color: darkgrey;
+    border: 0px;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.patientPage:hover {
+    background-color: white;
+    border: 3px solid #60146E;
+    color: black;
+    transition: background-color linear 0.5s;
 }
 
 /* The background color of open session of homepage is set to pink purple gradient*/
@@ -161,3 +195,7 @@
     text-align: center;
     text-shadow: 2px 2px grey;
 }
+
+
+
+

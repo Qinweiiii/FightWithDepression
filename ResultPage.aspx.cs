@@ -52,5 +52,12 @@ namespace SWE2109537_ES
             act.Text = action.ToString();
             duration.Text = Request.QueryString["judge"];
         }
+
+        protected void FormButton_Click(object sender, EventArgs e)
+        {
+            // The click function enables the homepage to redirect to testpage
+            Response.Redirect("https://www.baidu.com");
+        }
+
     }
 }

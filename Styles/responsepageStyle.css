@@ -1,0 +1,164 @@
+﻿body {
+    background-image: linear-gradient(to right top, #04031d, #0b031e, #11031f, #16031f, #1a031f);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0.2;
+    border: 2px solid transparent;
+    border-bottom: 4px solid #fff;
+    animation: flash 2s infinite linear;
+}
+
+    .star::before {
+        content: "";
+        position: absolute;
+        left: -2px;
+        top: 4px;
+        border: 2px solid transparent;
+        border-top: 4px solid #fff;
+    }
+
+@keyframes flash {
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.starsky {
+    position: absolute;
+    z-index: -20;
+}
+
+.container {
+    margin-top: 5%;
+    position: absolute;
+    left: 21%;
+    height: 80%;
+    width: 55%;
+    background-color: rgba(227, 209, 232, 0.8);
+    border-radius: 30px;
+    z-index: 30;
+    border: 1px solid rgba(227, 209, 232, 0);
+}
+
+.container .countdown .textBox{
+    width: 10px;
+    height: 20px;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 48px;
+    text-shadow: none;
+    color: transparent;
+    background-image: linear-gradient(to right, #000000, #1d171a, #33262e, #483746, #5c4a61);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-size: 100% 100%;
+    animation: bg 1.5s linear;
+    position; relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bg {
+    0% {
+        background-size: 0% 100%;
+    }
+    25% {
+        background-size: 25% 100%;
+    }
+    50% {
+        background-size: 50% 100%;
+    }
+    75% {
+        background-size: 75% 100%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+.container2 {
+    margin-top: 5%;
+    position: absolute;
+    left: 21%;
+    height: 80%;
+    width: 55%;
+    background-color: rgba(227, 209, 232, 0.8);
+    border-radius: 30px;
+    z-index: 10;
+    opacity: 0;
+    border: 1px solid rgba(227, 209, 232, 0);
+}
+
+.container2 .rspWords {
+    padding: 20px 20px 0px 15px;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: whitesmoke;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+    text-shadow: 1px 1px 2px black;
+    line-height: 45px;
+}
+
+
+.container2 .patientPage {
+    position: absolute;
+    left: 36%;
+    top: 83%;
+    background-color: rgba(67, 58, 70, 0.8);
+    border-color: darkgrey;
+    border: 0px;
+    border-radius: 15px;
+    width: 230px;
+    height: 70px;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+}
+
+
+.container .patientPage {
+    position: absolute;
+    left: 36%;
+    top: 83%;
+    background-color: rgba(67, 58, 70, 0.8);
+    border-color: darkgrey;
+    border: 0px;
+    border-radius: 15px;
+    width: 230px;
+    height: 70px;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+}
